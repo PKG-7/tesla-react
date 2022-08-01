@@ -49,6 +49,10 @@ const ItemText = styled.div`
     font-size: 20px;
     padding-top: 15vh;
     text-align: center;
+
+    p {
+    font-size: 14px;
+    }
 `
 
 const ButtonGroup = styled.div`
