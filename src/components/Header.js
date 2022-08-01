@@ -21,7 +21,7 @@ export default function Header() {
 
       <RightMenu>
         <a href="#">Shop</a>
-        <a href="#">Tesla Account</a>
+        <a href="#">Account</a>
         <CustomMenu />
 
       </RightMenu>
@@ -52,12 +52,12 @@ const Menu = styled.div`
 
     a {
       font-weight: 600;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       padding: 0 10px;
       flex-wrap: nowrap;
     }
 
-    @media(max-width: 768px) {
+    @media(max-width: 1080px) {
       display: none;
     }
 
@@ -69,7 +69,7 @@ const RightMenu = styled.div`
 
     a {
       font-weight: 600;
-      text-transform: uppercase;
+      /* text-transform: uppercase; */
       margin-right: 10px;
     }
 
