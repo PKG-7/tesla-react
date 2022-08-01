@@ -16,9 +16,12 @@ export default function Section({ title, description, backgroundImg, leftBtnText
             <LeftButton>
                 { leftBtnText }
             </LeftButton>
-            <RightButton>
-                { rightBtnText }
-            </RightButton>
+            { rightBtnText && 
+                <RightButton>
+                    { rightBtnText }
+                </RightButton>
+            }
+
         </ButtonGroup>
         
         <DownArrow src="/images/down-arrow.svg" />
@@ -43,6 +46,7 @@ const Wrap = styled.div`
 `
 
 const ItemText = styled.div`
+    font-size: 20px;
     padding-top: 15vh;
     text-align: center;
 `
@@ -64,7 +68,7 @@ const LeftButton = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 100px;
-    opacity: 0.85;
+    opacity: 0.95;
     text-transform: uppercase;
     font-size: 12px;
     cursor: pointer;
