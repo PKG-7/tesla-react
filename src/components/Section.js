@@ -1,20 +1,23 @@
 import styled from "styled-components"
 
-export default function Section() {
+export default function Section({ title, description, backgroundImg, leftBtnText, rightBtnText}) {
+
+
   return (
-    <Wrap>
+    <Wrap bgImage = {backgroundImg}>
         <ItemText>
-            <h1>Model 3</h1>
-            <p>Order Online for Touchless Delivery</p>
+            <h1>{ title }</h1>
+            <p>{ description }</p>
         </ItemText>
 
         <Buttons>
+
         <ButtonGroup>
             <LeftButton>
-                Custom order
+                { leftBtnText }
             </LeftButton>
             <RightButton>
-                Existing inventory
+                { rightBtnText }
             </RightButton>
         </ButtonGroup>
         
@@ -30,7 +33,7 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('/images/model-3.jpg');
+    background-image: ${ props => `url("/images/${props.bgImage}")` };
     display: flex;
     flex-direction: column;
     justify-content: space-between; // vertical alignment
@@ -47,6 +50,9 @@ const ItemText = styled.div`
 const ButtonGroup = styled.div`
     display: flex;
     margin-bottom: 30px;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 
 `
 const LeftButton = styled.div`
@@ -65,7 +71,9 @@ const LeftButton = styled.div`
     margin: 8px;
 `
 const RightButton = styled(LeftButton)`
-
+    background-color: white;
+    opacity: 0.65;
+    color: black;
 `
 
 const DownArrow = styled.img`
