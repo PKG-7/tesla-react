@@ -24,8 +24,8 @@ export default function Header() {
 
 
       <RightMenu>
-        <a href="#">Shop</a>
-        <a href="#">Account</a>
+        <a href="#">Магазин</a>
+        <a href="#">Аккаунт</a>
         <CustomMenu onClick={() => setBurgerStatus(true)} />
 
       </RightMenu>
@@ -36,14 +36,14 @@ export default function Header() {
         { cars && cars.map((car, index) => (
           <li key={ index }><a href="#">{ car }</a></li>
         ))}
-        
-        <li><a href="#">Existing Inventory</a></li>
-        <li><a href="#">Used Inventory</a></li>
-        <li><a href="#">Trade-In</a></li>
-        <li><a href="#">Test Drive</a></li>
-        <li><a href="#">Insurance</a></li>
         <li><a href="#">Cybertruck</a></li>
-        <li><a href="#">Roadster</a></li>
+        <li><a href="#">Roadster</a></li>        
+        <li><a href="#">Автомобили в наличии</a></li>
+        <li><a href="#">Поддержанные модели</a></li>
+        <li><a href="#">Трейд-Ин</a></li>
+        <li><a href="#">Тест Драйв</a></li>
+        <li><a href="#">Страховка</a></li>
+
 
       </BurgerNav>
 

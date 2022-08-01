@@ -6,45 +6,45 @@ export default function Home() {
     <Container>
         <Section
             title="Model 3"
-            description="Order Online for Touchless Delivery"
+            description="Закажите онлайн для бесконтактной доставки"
             backgroundImg="model-3.jpg"
-            leftBtnText="Custom order"
-            rightBtnText="Existing inventory"
+            leftBtnText="Индивидуальный заказ"
+            rightBtnText="Автомобили в наличии"
             />
          <Section 
             title="Model Y"
-            description="Order Online for Touchless Delivery"
+            description="Закажите онлайн для бесконтактной доставки"
             backgroundImg="model-y.jpg"
-            leftBtnText="Custom order"
-            rightBtnText="Existing inventory"/>
+            leftBtnText="Индивидуальный заказ"
+            rightBtnText="Автомобили в наличии"/>
          <Section 
             title="Model S"
-            description="Order Online for Touchless Delivery"
+            description="Закажите онлайн для бесконтактной доставки"
             backgroundImg="model-s.jpg"
-            leftBtnText="Custom order"
-            rightBtnText="Existing inventory"/>
+            leftBtnText="Индивидуальный заказ"
+            rightBtnText="Автомобили в наличии"/>
           <Section 
             title="Model X"
-            description="Order Online for Touchless Delivery"
+            description="Закажите онлайн для бесконтактной доставки"
             backgroundImg="model-x.jpg"
-            leftBtnText="Custom order"
-            rightBtnText="Existing inventory"/>
+            leftBtnText="Индивидуальный заказ"
+            rightBtnText="Автомобили в наличии"/>
           <Section 
-            title="Solar Panels"
-            description="Lowest Cost Solar Panels in America"
+            title="Солнечные панели"
+            description="Самые низкие цены на солнечные панели в России"
             backgroundImg="solar-panel.jpg"
-            leftBtnText="Order now"
-            rightBtnText="Learn more"/>
+            leftBtnText="Заказать сейчас"
+            rightBtnText="Узнать больше"/>
           <Section 
-            title="Solar Roof"
-            description="Produce Clean Energy From Your Roof"
+            title="Солнечная крыша"
+            description="Получайте чистую энергию с вашей крыши"
             backgroundImg="solar-roof.jpg"
-            leftBtnText="Order now"
-            rightBtnText="Learn more"/>
+            leftBtnText="Заказать сейчас"
+            rightBtnText="Узнать больше"/>
           <Section 
-            title="Accessories"
+            title="Аксессуары"
             backgroundImg="accessories.jpg"
-            leftBtnText="Shop now"
+            leftBtnText="Заказать сейчас"
             />
 
     </Container>
