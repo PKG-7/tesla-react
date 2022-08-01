@@ -16,8 +16,9 @@ export default function Section({ title, description, backgroundImg, leftBtnText
         </Fade>
         <Buttons>
 
+        <Fade bottom>
         <ButtonGroup>
-
+        
 
             <LeftButton>
                 { leftBtnText }
@@ -28,8 +29,9 @@ export default function Section({ title, description, backgroundImg, leftBtnText
                 </RightButton>
             }
 
-
+        
         </ButtonGroup>
+        </Fade>
         
         <DownArrow src="/images/down-arrow.svg" />
         </Buttons>
